@@ -1,0 +1,72 @@
+/* Основні стилі для тіла сторінки */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    background-color: #f3f3f369; /* Світло-блакитний з палітри */
+    margin: 0;
+    padding: 0;
+}
+
+/* Хедер */
+header {
+    padding: 50px 0;
+    background-color: rgb(222, 255, 221); /* Синій з палітри */
+    text-align: center;
+}
+
+h1, h2 {
+    color: rgb(61, 61, 61); /* Білий для контрасту */
+    margin: 0;
+}
+
+/* Навігація (Горизонтальне меню) */
+nav {
+    background-color: #a73f20; /* Бірюзовий з палітри */
+    border-color: #7a0e25;
+    min-height: 64px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    width: 100px;
+}
+
+nav a {
+    display: block;
+    color: #000000; /* Чорний */
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000000;
+    background-color: #682321; /* Колір при наведенні */
+}
+
+/* Основний контент */
+p {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 0.1em;
+    margin-bottom: 1em;
+    padding: 0 20px;
+    color: #000000;
+}
+
+/* Футер */
+footer {
+    background-color: #1C5D99;
+    color: #FFFFFF;
+    padding: 20px 0;
+    margin-top: 30px;
+    text-align: center;
+}
